@@ -1,0 +1,123 @@
+h2{
+    font-size: 50px;
+    
+}
+
+
+header{
+    background-color:#26AEFF ;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.texto-cabecalho{
+    color: white;
+}
+
+
+h1{
+    background-color:#238AC7;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    background-color: #FAFAFA;
+}
+
+ul{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.img-hover{
+    font-size: 200%;
+    height: auto;
+    transition: transform 0.3 case;
+}
+
+
+.img-hover:hover{
+    transform: scale(1.1);
+}
+
+.texto-sugestao{
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    margin-bottom: 8px;
+    width: 80vw;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+
+.quadro{
+    border: 2px solid #ccc;
+    padding: 110px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    margin: 0 auto;
+}
+
+.quadro p{
+    color: #333;
+    font-size: 16px;
+}
+
+
+.imagem-amor{
+    width: 1200px;
+}
+
+body{
+    font-family: monospace;
+
+}
+
+
+footer{
+    background-color: #238AC7;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    font-size: 12px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.text-footer{
+    font-size: 120%;
+    height: auto;
+    transition: transform 0.3 case;
+}
+
+.text-footer:hover{
+    transform: scale(1.1);
+    color: yellow;
+}
